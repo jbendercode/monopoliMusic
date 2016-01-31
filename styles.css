@@ -1,0 +1,215 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+	background: #000000 url("assets/drum-bg.jpg") no-repeat;
+    background-size: 100%;
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    -webkit-font-smoothing: antialiased;
+	color: white;
+	margin: 0 0;
+}
+
+#main-container{
+	
+}
+
+#header{
+	padding: 10px 10px;
+	background-color: #000000;
+	height: 50px;
+	line-height: 50px;
+}
+
+#header-left{
+	float: left;
+	display: inline-block;
+	height: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+#name{
+	font-size: 36px;
+	display: inline-block;
+}
+
+#careers{
+	font-size: 14px;
+	display: inline-block;
+}
+
+#header-right{
+	float: right;
+	display: inline-block;
+	height: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+#social-media{
+	display: inline-block;
+	height: 100%;
+	max-width: 100%;
+}
+
+#social-media a{
+	text-decoration: none;
+	outline: 0;
+}
+
+#social-media img {
+	display: inline-block;
+	width: auto;
+	max-height: 100%;
+	padding: 0px 3px;
+}
+
+#post-header{
+	background-color: rgba(90, 90, 90, 0.5);
+	float: right;
+	max-width: 50%;
+	max-height: 50px;
+	padding: 5px 5px;
+	opacity: 1;
+}
+
+#post-header > .is-visible {
+	display: inline-block;
+	-webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+ 
+#post-header > .is-hidden {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.quotes{
+	margin: auto;
+	font-size: 14px;
+}
+
+.q-source{
+	float: right;
+	font-size: 11px;
+}
+
+#main-content{
+	margin-top: 100px;
+}
+
+#content-left{
+	display: inline-block;
+	background-color: rgba(90, 90, 90, 0.5);
+	float: left;
+	max-width: 35%;
+	height: auto;
+}
+
+#logo{
+	text-align: center;
+	padding: 10px 5px;
+}
+
+#logo img{
+	max-width: 200px;
+	height: auto;	
+}
+
+#bio{
+	padding: 10px 10px;
+}
+
+#content-right{
+	display: inline-block;
+	float: right;
+	width: 65%;
+	height: auto;
+	text-align: center;
+}
+
+#video-player{
+	max-width: 90%;
+	margin: 0px auto;
+}
+
+#video-player iframe{
+	max-width: 100%;
+	max-height: auto;
+}
+
+#mp3-player{
+	max-width: 90%;
+	margin: 20px auto;
+}
+
+#mp3-player #amazingaudioplayer-1{
+	max-width: 100%;
+	max-height:auto;
+}
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	background-color: #000000;
+	height: 50px;
+	width: 100%;
+	font-size: 11px;
+}
+
+#footer-right{
+	float: right;
+	height: 100%;
+	max-width: 50%;
+	line-height: 50px;
+}
+
+#thank-you{
+	float: right;
+	display: inline-block;
+	height: 100%;
+	width: auto;
+	vertical-align: middle;
+}
+
+#sponsor-logos{
+	float: right;
+	display: inline-block;
+	height: 100%;
+	width: auto;
+	vertical-align: middle;
+}
+
+#sponsor-logos a{
+	text-decoration: none;
+	outline: 0;
+}
+
+#sponsor-logos img{
+	display: inline-block;
+	height: 60%;
+	width: auto;
+	vertical-align: middle;
+	padding: 0px 3px;
+}
+
+#footer-left{
+	float: left;
+	height: 100%;
+	max-width: 50%;
+}
+
+#copyright{
+	padding: 0px 10px;
+}
+
+#design-by{
+	padding: 2px 10px;
+	line-height: 23px;	
+}
