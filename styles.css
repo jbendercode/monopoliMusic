@@ -12,7 +12,7 @@ body {
 }
 
 #main-container{
-	
+
 }
 
 #header{
@@ -70,9 +70,11 @@ body {
 	background-color: rgba(90, 90, 90, 0.5);
 	float: right;
 	max-width: 50%;
+	width: 30%;
 	max-height: 50px;
-	padding: 5px 5px;
+	padding: 5px 10px;
 	opacity: 1;
+	text-align: center;
 }
 
 #post-header > .is-visible {
@@ -147,9 +149,10 @@ body {
 #mp3-player{
 	max-width: 90%;
 	margin: 20px auto;
+	margin-bottom: 60px;
 }
 
-#mp3-player #amazingaudioplayer-1{
+#mp3-player iframe{
 	max-width: 100%;
 	max-height:auto;
 }
@@ -166,7 +169,7 @@ body {
 #footer-right{
 	float: right;
 	height: 100%;
-	max-width: 50%;
+	max-width: 70%;
 	line-height: 50px;
 }
 
@@ -202,7 +205,7 @@ body {
 #footer-left{
 	float: left;
 	height: 100%;
-	max-width: 50%;
+	max-width: 30%;
 }
 
 #copyright{
@@ -212,4 +215,220 @@ body {
 #design-by{
 	padding: 2px 10px;
 	line-height: 23px;	
+}
+
+/* Responsive CSS */
+@media only screen and (max-width : 840px) {
+	
+	#main-container{
+		
+	}
+		
+	#header{
+		padding: 10px 0px;
+		background-color: #000000;
+		height: auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	#header-left{
+		background-color: #000000;
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+
+	#name{
+		padding-top: 15px;
+		font-size: 36px;
+		display: inline-block;
+		width: 100%;
+	}
+
+	#careers{
+		font-size: 14px;
+		display: inline-block;
+		width: 100%;
+		height: 50px;
+	}
+
+	#header-right{
+		background-color: #000000;
+		display: block;
+		height: auto;
+		width: 100%;
+	}
+
+	#social-media{
+		display: inline-block;
+		height: 100%;
+		max-width: 100%;
+	}
+
+	#social-media a{
+		text-decoration: none;
+		outline: 0;
+	}
+
+	#social-media img {
+		display: inline-block;
+		width: auto;
+		max-height: 50px;
+		padding: 0px 3px;
+	}
+
+	#post-header{
+		background-color: rgba(90, 90, 90, 0.5);
+		float: right;
+		max-width: 100%;
+		width: 100%;
+		max-height: 50px;
+		padding: 5px 0px;
+		opacity: 1;
+		text-align: center;
+	}
+
+	#post-header > .is-visible {
+		display: inline-block;
+		-webkit-transition: all 2s ease;
+		-moz-transition: all 2s ease;
+		-o-transition: all 2s ease;
+		transition: all 2s ease;
+	}
+	 
+	#post-header > .is-hidden {
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	.quotes{
+		margin: auto;
+		font-size: 14px;
+		padding: 5px 10px;
+	}
+
+	.q-source{
+		float: right;
+		font-size: 11px;
+		padding: 5px 10px;
+	}
+
+	#main-content{
+		margin-top: 100px;
+	}
+
+	#content-left{
+		display: inline-block;
+		background-color: rgba(90, 90, 90, 0.5);
+		float: left;
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+	}
+
+	#logo{
+		text-align: center;
+		padding: 20px 5px;
+	}
+
+	#logo img{
+		max-width: 200px;
+		height: auto;	
+	}
+
+	#bio{
+		padding: 10px 10px;
+	}
+
+	#content-right{
+		display: inline-block;
+		float: right;
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	#video-player{
+		max-width: 90%;
+		margin: 0px auto;
+	}
+
+	#video-player iframe{
+		max-width: 100%;
+		max-height: auto;
+	}
+
+	#mp3-player{
+		max-width: 90%;
+		margin: 0px auto;
+		margin-bottom: 60px;
+	}
+
+	#mp3-player iframe{
+		max-width: 100%;
+		max-height:auto;
+	}
+
+	#footer{
+		position: fixed;
+		bottom: 0;
+		background-color: #000000;
+		height: 50px;
+		width: 100%;
+		font-size: 11px;
+	}
+
+	#footer-right{
+		float: right;
+		height: 100%;
+		max-width: 60%;
+		line-height: 50px;
+	}
+
+	#thank-you{
+		float: right;
+		display: inline-block;
+		max-height: 100%;
+		width: auto;
+		vertical-align: middle;
+	}
+
+	#sponsor-logos{
+		float: right;
+		display: inline-block;
+		max-height: 100%;
+		width: auto;
+		vertical-align: middle;
+	}
+
+	#sponsor-logos a{
+		text-decoration: none;
+		outline: 0;
+	}
+
+	#sponsor-logos img{
+		display: inline-block;
+		height: 60%;
+		width: auto;
+		vertical-align: middle;
+		padding: 0px 3px;
+	}
+
+	#footer-left{
+		float: left;
+		height: 100%;
+		max-width: 40%;
+	}
+
+	#copyright{
+		padding: 0px 10px;
+	}
+
+	#design-by{
+		padding: 2px 10px;
+		line-height: 23px;	
+	}
 }
