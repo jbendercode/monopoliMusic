@@ -1,5 +1,17 @@
 var main = function(){
 	
+	// Margin-setter for page load
+	var timeBeforeLoad = 3000;
+	
+	function showContent(){
+		// This will only show after the timeBeforeLoad hits zero
+		var marginSetter = $('#margin-setter');
+		
+		setTimeout(function(){ marginSetter.css("height", "0vh");}, timeBeforeLoad)
+	}
+	
+	showContent();
+	
 	// Animated Header
 	var animationDelay = 5000;
 	 

@@ -3,7 +3,7 @@
 }
 
 body {
-	background: #000000 url("assets/drum-bg.jpg") no-repeat;
+	background: #000000 url("assets/drum-bg.jpg") fixed no-repeat;
     background-size: 100%;
 	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -16,10 +16,13 @@ body {
 }
 
 #header{
-	padding: 10px 10px;
+	padding: 10px 0px;
+	line-height: 50px;
+	position: fixed;
+	top: 0;
 	background-color: #000000;
 	height: 50px;
-	line-height: 50px;
+	width: 100%;
 }
 
 #header-left{
@@ -28,6 +31,7 @@ body {
 	height: 100%;
 	max-width: 100%;
 	vertical-align: middle;
+	padding-left: 10px;
 }
 
 #name{
@@ -46,6 +50,7 @@ body {
 	height: 100%;
 	max-width: 100%;
 	vertical-align: middle;
+	padding-right: `10px;
 }
 
 #social-media{
@@ -67,10 +72,13 @@ body {
 }
 
 #post-header{
+	position: fixed;
+	top: 70px;
+	right: 0;
 	background-color: rgba(90, 90, 90, 0.5);
 	float: right;
-	max-width: 50%;
-	width: 30%;
+	max-width: 55%;
+	width: 50%;
 	max-height: 50px;
 	padding: 5px 10px;
 	opacity: 1;
@@ -83,6 +91,7 @@ body {
     -moz-transition: all 2s ease;
     -o-transition: all 2s ease;
     transition: all 2s ease;
+	text-align: left;
 }
  
 #post-header > .is-hidden {
@@ -103,14 +112,16 @@ body {
 }
 
 #main-content{
-	margin-top: 100px;
+	margin-top: 150px;
 }
 
 #content-left{
+	position: fixed;
+	left: 0;
 	display: inline-block;
 	background-color: rgba(90, 90, 90, 0.5);
 	float: left;
-	max-width: 35%;
+	max-width: 40%;
 	height: auto;
 }
 
@@ -136,6 +147,14 @@ body {
 	text-align: center;
 }
 
+#margin-setter{
+	height: 100vh;
+	-webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+}
+
 #video-player{
 	max-width: 90%;
 	margin: 0px auto;
@@ -149,7 +168,6 @@ body {
 #mp3-player{
 	max-width: 90%;
 	margin: 20px auto;
-	margin-bottom: 60px;
 }
 
 #mp3-player iframe{
@@ -202,10 +220,14 @@ body {
 	padding: 0px 3px;
 }
 
-#footer-left{
-	float: left;
-	height: 100%;
-	max-width: 30%;
+#pre-footer{
+	float: right;
+	text-align: right;
+	height: 50px;
+	max-width: 100%;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	font-size: 11px;
 }
 
 #copyright{
