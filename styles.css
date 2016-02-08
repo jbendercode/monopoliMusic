@@ -239,6 +239,13 @@ body {
 	line-height: 23px;	
 }
 
+#design-by a{
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline: 0;
+}
+
 #bg-mobile{
 	height: 0;
 	max-height: 0;
