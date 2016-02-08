@@ -279,6 +279,7 @@ body {
 		display: block;
 		height: auto;
 		width: 100%;
+		padding-left: 0px;
 	}
 
 	#name{
@@ -300,6 +301,7 @@ body {
 		display: block;
 		height: auto;
 		width: 100%;
+		padding-right: 0px;
 	}
 
 	#social-media{
@@ -489,11 +491,11 @@ body {
 		margin: 0 0;
 		display: inline-block;
 		height: auto;
-		width: 100vw;
+		width: 100%;
 	}
 	
 	#bg-mobile img{
-		width: 100vw;
+		width: 100%;
 		height: auto;
 	}
 }
